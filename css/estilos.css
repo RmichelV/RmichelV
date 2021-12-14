@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-imageContainer{
+    margin:0;
+    height: inherit;
+}
+
+.menu{
+margin: 0;
+height: inherit;
+}
+
+.header ol{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.header ol li{
+margin: 0px;
+align-items: center;
+}
+
+.link{
+    color: red;
+    text-decoration: none;
+    padding-right: 20px;
+    margin: 0;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+h1, h2, h3, h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.hero{
+    background-color:#030623;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.hero-title{
+    margin:0;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 55px;
+}
+
+.hero strong{
+    color: #4720ab;
+}
+.hero-imageContainer{
+    margin:0;
+    height: inherit;
+}
+
+.portfolio-title, .experience-title{
+    color: #4720ab;
+    text-transform: uppercase;
+}
+
+.project{
+    border:solid rgb(126, 9, 204) 2px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.project-title{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.project-title, .course, .date-project, .url-project{
+    margin: 10px 0;
+}
+
+.url-projects{
+color: black;
+text-decoration: none;
+}
+.project-details{
+    text-align: justify;
+    padding-right:20px ;
+    font-size: 21px;
+}
+.project-details strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-imageContainer{
+    margin:0;
+}
+
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event{
+    border: solid red 1px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 10px;
+    flex-shrink: 0;
+}
+
+.event-imageContainer{
+    margin:0;
+}
+.image-event{
+    width: 480px;
+}
+
+.event-details{
+    margin:0;
+    border: gold 2px solid;
+    width: 400px;
+    margin: 20px auto;
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+    margin-top: -60px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.event-title{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.event-description{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.url-event{
+    border: white 2px solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none ;
+    text-transform: uppercase;
+    font-family: 'Fjalla One',sans-serif;
+}
+
+.contact{
+    background-color: #1b3c71;
+    padding: 20px;
+    height: 250px;
+    
+}
+
+.contact-title{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.form-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-box{
+    border-color: gray;
+    background-image: url(../imagenes/sobre.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: 5px ;
+    padding: 7px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.form-button{
+    height: 80px;
+    width: 150px;
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.social{
+
+}
+
+.social-link{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    background-size: 100px 100px;
+}
+
+.social-link.facebook{
+    background-image: url(../imagenes/facebook.svg);
+}
+
+.social-link.twitter{
+    background-image: url(../imagenes/twitter.png);
+}
+
+.social-link.instagram{
+    background-image: url(../imagenes/instagram.png);
+}
+
+.social-link.github{
+    background-image: url(../imagenes/github.jpg);
+}
+
+.footer{
+    background-color: #2c2f33;
+    color:#99c84a ;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.footer-one{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.footer-imageContainer{
+    margin: 0;
+    height: 20px;
+    width: 100px;
+
+}
+.image-footer{
+    margin:0;
+    height: inherit;
+    width: inherit;
+}
+
+.footer-two{
+    align-items: center;
+}
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+    height: inherit;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+}
