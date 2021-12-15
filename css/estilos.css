@@ -34,12 +34,20 @@ align-items: center;
 }
 
 .link{
-    color: red;
+    color: #ffffff;
     text-decoration: none;
     padding-right: 20px;
     margin: 0;
     align-items: center;
     letter-spacing: 2px;
+}
+
+.link:hover{
+    background-color: #ffffff;
+    color: blueviolet;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 h1, h2, h3, h6{
@@ -109,7 +117,6 @@ text-decoration: none;
 .project-imageContainer{
     margin:0;
 }
-
 .event-list{
     display: flex;
     flex-wrap: wrap;
