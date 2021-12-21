@@ -104,6 +104,7 @@ h1, h2, h3, h6{
 .url-projects{
 color: black;
 text-decoration: none;
+cursor: pointer;
 }
 .project-details{
     text-align: justify;
@@ -116,6 +117,16 @@ text-decoration: none;
 
 .project-imageContainer{
     margin:0;
+    display: flex;
+    align-items: center;
+    /* border: solid red 1px; */
+    
+}
+
+.image-project{
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
 }
 .event-list{
     display: flex;
@@ -203,6 +214,7 @@ text-decoration: none;
     padding: 7px;
     padding-left: 25px;
     margin-bottom: 20px;
+    width: 300px;
 }
 
 .form-button{
@@ -216,9 +228,6 @@ text-decoration: none;
     border-radius: 10px;
 }
 
-.social{
-
-}
 
 .social-link{
     display: inline-block;
@@ -269,13 +278,12 @@ text-decoration: none;
 }
 .image-footer{
     margin:0;
+    margin-left: 10px;
     height: inherit;
     width: inherit;
 }
 
-.footer-two{
-    align-items: center;
-}
+
 
 .container{
     width: 1000px;
